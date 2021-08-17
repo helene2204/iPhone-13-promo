@@ -1,0 +1,46 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+body {
+  min-width: 320px;
+  min-height: 100vh; /*Вся высота экрана*/
+
+  background-color: #fff; /* указать фон под проект*/
+  font-family: "SF UI Text", sans-serif;
+  font-size: 20px; /*Самый используемый размер на странице*/
+  font-weight: 500;
+  color: #000;
+  line-height: 1;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul,
+ol {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+h1,
+h2,
+h3,
+p,
+figure,
+fieldset {
+  margin: 0;
+}
